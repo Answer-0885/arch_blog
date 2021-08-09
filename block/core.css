@@ -1,0 +1,26 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 100%;
+    min-width: 320px;
+}
+.wrap{
+    max-width:1170px;  /* Добавил +15px к 1170px чтобы получить слева отступ  */
+    margin: 0 auto;
+    
+} 
+.wrap-2{
+    max-width: 952px;
+    margin:0 auto;
+}
+body{
+    font-family: 'Montserrat', sans-serif;  
+}
+@media(max-width:1024px){
+    .container{
+        margin-left: 25px;
+
+    }
+}

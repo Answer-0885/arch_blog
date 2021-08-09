@@ -1,0 +1,176 @@
+/* Электронная почта - позиционирование и модификация 1го и 2го блока */
+.email-1{
+    margin-top: 161px;
+    width: 100vw;
+    height: 312px;
+    background: #F3F3F7;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+}
+@media(max-width:1024px){
+    .email-1{
+       width: 111vw;
+    }
+}
+@media(max-width:768px){
+    .email-1{
+       width: 148vw;
+    }
+}
+@media(max-width:600px){
+    .email-1{
+       width: 190vw;
+    }
+}
+@media(max-width:480px){
+    .email-1{
+       width: 236vw;
+    }
+}
+@media(max-width:320px){
+    .email-1{
+       width: 354vw;
+    }
+}
+
+.email-2{
+    width: 100vw;
+    height: 312px;
+    background: #F3F3F7;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+}
+@media(max-width:1024px){
+    .email-2{
+       width: 111vw;
+    }
+}
+@media(max-width:768px){
+    .email-2{
+       width: 148vw;
+    }
+}
+@media(max-width:600px){
+    .email-2{
+       width: 189vw;
+    }
+}
+@media(max-width:480px){
+    .email-2{
+       width: 236vw;
+    }
+}
+@media(max-width:320px){
+    .email-2{
+       width: 3vw;
+    }
+}
+
+.email-1__title,
+.email-2__title{
+    width: 798px;
+    height: 44px;
+    margin: 94px auto 174px;
+    text-align: center;
+}
+@media(max-width:320px){
+    .email-1__title,
+    .email-2__title{
+        width: 900px;
+    }
+}
+.email-1__title > p,
+.email-2__title > p{
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+ }
+ @media(max-width:480px){
+    .email-1__title > p,
+    .email-2__title > p{
+        font-size: 38px;
+    }
+}
+@media(max-width:320px){
+    .email-1__title > p,
+    .email-2__title > p{
+        font-size: 38px;
+        font-weight: 700;
+    }
+}
+ /* Поле ввода email */
+ .email-1__input,
+ .email-2__input{
+    margin-top: 30px;
+    margin-left: -225px;
+    height: 50px;
+    width: 350px;
+    box-shadow:0px px 4px rgba(0, 0, 0, 0.25);
+    background: #F3F3F7; 
+    color: #9A9A9A; 
+    outline: none;
+}
+.email-1__input::placeholder,
+.email-2__input::placeholder{  
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #9A9A9A;
+    padding-left: 19px;
+}
+@media(max-width:768px) {
+    .email-1__input::placeholder,
+    .email-2__input::placeholder{
+        font-size: 22px;
+    }
+}
+@media(max-width:320px) {
+    .email-1__input::placeholder,
+    .email-2__input::placeholder{
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+ /* Кнопка подписаться */
+.email-1__subscribe,
+.email-2__subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    background: #1a1a1a;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25); 
+    margin-top: -53px;
+    margin-left: 470px;
+}
+@media(max-width:320px) {
+    .email-1__subscribe,
+    .email-2__subscribe{
+        width: 280px;
+    }
+}
+.email-1__subscribe a,
+.email-2__subscribe a{
+    text-decoration: none;
+    color:#ffffff;
+    text-transform: uppercase;
+}
+@media(max-width:768px) {
+    .email-1__subscribe a,
+    .email-2__subscribe a{
+        font-size: 20px;
+    }
+}
+@media(max-width:320px) {
+    .email-1__subscribe a,
+    .email-2__subscribe a{
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 40px;
+    }
+}
+

@@ -1,0 +1,445 @@
+/* Хлебные крошки небольшая корректировка */
+.breadcrumb__list__list-1:nth-child(2){
+    padding-left: 5px;
+}
+@media(max-width:768px){
+    .breadcrumb__list__list-1:nth-child(2){
+        width: 100%;
+    }
+    .breadcrumb__list__list-2{
+        width: 180%;
+    }
+}
+@media(max-width:600px){
+    .breadcrumb__list__list-1:nth-child(2){
+        width: 120%;
+    }
+    .breadcrumb__list__list-2{
+        width: 180%;
+    }
+}
+@media(max-width:480px){
+    .breadcrumb__list__list-1:nth-child(2){
+        width: 160%;
+    }
+    .breadcrumb__list__list-2{
+        font-size: 28px;
+    }
+}
+/* Векторные рисунки с описанием */
+@media(max-width:1024px){
+    .hr{
+        width: 110%;
+    }
+}
+@media(max-width:768px){
+    .hr{
+        width: 145%;
+    }
+}
+@media(max-width:600px){
+    .hr{
+        width: 188%;
+    }
+}
+@media(max-width:480px){
+    .hr{
+        width: 240%;
+    }
+}
+@media(max-width:320px){
+    .hr{
+        width: 360%;
+    }
+}
+/* Подзаголовок */
+@media(max-width:768px){
+    .main__h4{
+        width: 140%;
+    }
+}
+@media(max-width:600px){
+    .main__h4{
+        width: 180%;
+    }
+}
+@media(max-width:480px){
+    .main__h4{
+        width: 220%;
+    }
+}
+@media(max-width:320px){
+    .main__h4{
+        width: 340%;
+        line-height: 170%;
+    }
+}
+/* Векторная часть */
+.vector{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
+    margin-bottom: 12px;
+}
+@media(max-width:1024px){
+    .vector{
+        margin-right: -100px;
+    }
+}
+@media(max-width:768px){
+    .vector{
+        margin-right: -320px;
+    }
+}
+@media(max-width:600px){
+    .vector{
+        margin-right: -480px;
+    }
+}
+@media(max-width:480px){
+    .vector{
+        margin-right: -600px;
+    }
+}
+@media(max-width:320px){
+    .vector{
+        margin-right: -760px;
+    }
+}
+.vector-1{
+    display: flex;
+}
+.vector-2{
+    display: flex;
+}
+.vector-3{
+    display: flex;
+}
+.vector p{
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px; 
+    color: rgba(0, 0, 0, 0.5);    
+}
+@media(max-width:768px){
+    .vector p{
+        font-size: 16px;
+    }
+}
+@media(max-width:600px){
+    .vector p{
+        font-size: 22px;
+    }
+}
+@media(max-width:480px){
+    .vector p{
+        font-size: 24px;
+        line-height: 120%;
+    }
+}
+.vector p span{
+    color:#d90000;
+}
+.vector-2 p{
+    width: 155px;
+}
+/* Текст - вступление */
+.introduction{
+    margin-top: 55px;
+}
+@media(max-width:1024px){
+    .introduction{
+        margin-right: -100px;
+    }   
+}
+@media(max-width:768px){
+    .introduction{
+        margin-right: -350px;
+    }   
+}
+@media(max-width:600px){
+    .introduction{
+        margin-right: -500px;
+    }   
+}
+@media(max-width:480px){
+    .introduction{
+        margin-right: -620px;
+    }   
+}
+@media(max-width:320px){
+    .introduction{
+        margin-right: -760px;
+    }   
+}
+.introduction p{
+    font-size: 18px;
+    line-height: 170%;    
+    color: #333333;    
+}
+@media(max-width:768px){
+    .introduction p{
+        font-size: 20px;
+    }   
+}
+@media(max-width:480px){
+    .introduction p{
+        font-size: 24px;
+    }   
+}
+@media(max-width:320px){
+    .introduction p{
+        font-size: 28px;
+    }   
+}
+/* Картинки - Доминиона */
+.dominion{
+    margin-top: 25px; 
+}
+@media(max-width:1024px){
+    .dominion{
+        margin-left: 40px;
+    }   
+}
+@media(max-width:768px){
+    .dominion{
+        margin-left: 60px;
+    }   
+}
+.dominion h3{
+    margin-bottom: 25px;       
+}
+@media(max-width:600px){
+    .dominion h3{
+        font-size: 28px;
+        width: 180%;
+    }   
+}
+@media(max-width:480px){
+    .dominion h3{
+        width: 240%;
+    }   
+}@media(max-width:320px){
+    .dominion h3{
+        font-size: 32px;
+        width: 380%;
+    }   
+}
+.dominion__img{
+    display: flex; 
+}
+.dominion__right{
+    margin-left: 20px;
+}
+.dominion__right__top{
+    display: flex;
+}
+.dominion__right_top_2{
+    margin-left: 22px;
+}
+.dominion__right__bottom{
+    margin-top: 20px;
+}
+/* Надпись - прекрасное Офисное здание «Доминион» */
+.dominion__header{
+    width: 250px;
+    height: 54px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%; 
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+}
+@media(max-width:480px){
+    .dominion__header{
+        font-size: 20px;
+        width: 280px;
+        height: 110px;
+    }   
+}
+@media(max-width:320px){
+    .dominion__header{
+        font-size: 24px;
+        width: 320px;
+        height: 130px;
+    }   
+}
+.dominion__country{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 170%;     
+    color: rgba(0, 0, 0, 0.5);
+}
+@media(max-width:480px){
+    .dominion__country{
+        font-size: 20px;
+    }   
+}
+@media(max-width:320px){
+    .dominion__country{
+        font-size: 28px;
+    }   
+}
+/* Описание здания Доминион */
+.description{
+    margin-top: 50px;
+}
+@media(max-width:1024px){
+    .description{
+        margin-right: -100px;
+    }   
+}
+@media(max-width:768px){
+    .description{
+        margin-right: -350px;
+    }   
+}
+@media(max-width:600px){
+    .description{
+        margin-right: -500px;
+    }   
+}
+@media(max-width:480px){
+    .description{
+        margin-right: -620px;
+    }   
+}
+@media(max-width:320px){
+    .description{
+        margin-right: -760px;
+    }   
+}
+.description p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%; 
+    color: #333333;
+}
+@media(max-width:768px){
+    .description p{
+        font-size: 20px;
+    }   
+}
+@media(max-width:480px){
+    .description p{
+        font-size: 24px;
+    }   
+}
+@media(max-width:320px){
+    .description p{
+        font-size: 28px;
+    }   
+}
+/* Похожие темы */
+.with_this_read h4{
+    font-size: 16px;
+    line-height: 170%;   
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 26px;
+}
+.with_this_read{
+    margin-top: 129px;
+}
+@media(max-width:1024px){
+    .with_this_read{
+        margin-left: 60px;
+        margin-right: -60px;
+    }   
+}
+@media(max-width:768px){
+    .with_this_read{
+        margin-left: 80px;
+        width: 130%;
+
+    }   
+}
+@media(max-width:600px){
+    .with_this_read{
+        margin-left: 60px;
+        width: 170%;
+
+    }   
+}
+@media(max-width:480px){
+    .with_this_read{
+        margin-left: 20px;
+        width: 230%;
+    }  
+    .with_this_read h4{
+        font-size: 26px;
+    } 
+}
+@media(max-width:320px){
+    .with_this_read{
+        margin-left: 20px;
+        width: 350%;
+    }  
+}
+.with_this_read__news{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 117px;
+}
+.with_this_read__news-1{
+    display: flex;
+    width: 312px;
+}
+.with_this_read__news-2{
+    display: flex;
+    width: 312px;
+}
+.with_this_read__news-3{
+    display: flex;
+    width: 312px;
+}
+.with_this_read__news p a{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off, 'calt' off, 'kern' off;  
+    color: #333333; 
+    text-decoration: none;  
+}
+@media(max-width:480px){
+    .with_this_read__news p a{
+        font-size: 26px;
+    }  
+}
+.with_this_read__news p span{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: #333333;
+}
+@media(max-width:480px){
+    .with_this_read__news p span{
+        font-size: 18px;
+    }  
+}
+.with_this_read__news p{
+    margin-left: 18px;
+}
+/* Красный цвет при наведении на ссылку */
+.with_this_read__news-1 p a:hover{
+    color:#d90000;
+}
+.with_this_read__news-1 p a span:hover{
+    color:#d90000;
+}
+.with_this_read__news-2 p a:hover{
+    color:#d90000;
+}
+.with_this_read__news-2 p a span:hover{
+    color:#d90000;
+}
+.with_this_read__news-3 p a:hover{
+    color:#d90000;
+}
+.with_this_read__news-3 p a span:hover{
+    color:#d90000;
+}

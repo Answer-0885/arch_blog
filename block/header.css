@@ -1,0 +1,107 @@
+.header__page-1{
+    margin-bottom: 40px;
+}
+
+/* Логотип-"Архитектурный блог" */
+.header__logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 124px;
+    margin-bottom: 132px;
+
+}
+
+/* МЕНЮ */
+.header__menu{
+    display: flex;
+    justify-content: center;  
+}
+.header__menu__item{
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    text-decoration: none;
+    margin-right: 50px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+}
+.header__menu__item:hover{
+    border-bottom: red 2px solid;
+}
+.header__menu__item_active{
+    margin-right: 0;
+}
+
+/* Медиа запросы */
+@media(max-width:1024px){
+    .header__logo{
+        margin-left: 170px;
+    }
+    .header__menu{
+        margin-right: -220px;
+        
+    } 
+    .header__menu__item{
+        font-size: 28px;
+        text-align: center;
+
+    }
+}
+@media(max-width:768px){
+    .header__logo{
+        margin-left: 400px; 
+        /* background-position: center;
+        background-size: cover; */
+    }
+    .header__menu{
+        margin-right: -400px;
+    }
+    .header__menu__item{
+        text-align: center;
+    } 
+}
+@media(max-width:600px){
+    .header__logo{
+        margin-left: 600px; 
+        /* background-position: center;
+        background-size: cover; */
+    }
+    .header__menu{
+        margin-right: -570px;
+    }
+    .header__menu__item{
+        text-align: center;
+    } 
+}
+@media(max-width:480px){
+    .header__logo{
+        margin-left: 600px; 
+        /* background-position: center;
+        background-size: cover; */
+    }
+    .header__menu{
+        margin-right: -700px;
+       
+    }
+    .header__menu__item{
+        text-align: center;
+
+    }
+}
+@media(max-width:320px){
+    .header__logo{
+        margin-left: 580px; 
+        /* background-position: center;
+        background-size: cover; */
+    }
+    .header__menu{
+        margin-right: -810px;
+    }
+    .header__menu__item{
+        font-size: 36px;
+        text-align: center;
+    } 
+}
+
+
+

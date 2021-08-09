@@ -1,0 +1,195 @@
+/* Блок новостей с картинками-общее позиционирование */
+.arch-news-block{
+    width: 1170px;
+    height: 544px;
+    margin: 0 auto;
+}
+.arch-news-block__top-news{
+    display: flex;
+}
+.arch-news-block__right-block{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-bottom:auto;
+}
+.arch-news-block__top-block{
+    margin-bottom:auto;
+}
+.arch-news-block__bottom-block{
+    margin-top: 3px;
+} 
+
+/* Медиа запросы */
+@media(max-width:1024px){
+    .arch-news-block__left-block{
+        width: 64%;
+        overflow: hidden;
+        }
+    .arch-news-block__right-block{
+        width: 35%;
+        overflow: hidden;  
+    }
+}
+@media(max-width:768px){
+    .arch-news-block__left-block{
+        width: 64%;
+        overflow: hidden;
+        }
+    .arch-news-block__right-block{
+        width: 35%;
+        overflow: hidden;  
+    }
+}
+
+
+
+/* Кнопка смотреть-модификация */
+.button-look{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    border: 1px solid #ffffff;
+    background: rgba(0, 0, 0, 0.3);
+}
+.button-look a{
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+@media(max-width:768px){
+    .button-look a{
+        font-size: 20px;
+    }
+}
+
+
+
+/* Позиционирование кнопки СМОТРЕТЬ и ЗАГОЛОВКА левого блока */
+.arch-news-block__left-block{
+    position: relative;
+}
+.arch-news-block__button-look-left{
+    position: absolute;
+    top:380px;
+    left: 60px; 
+}
+.arch-news-block__title-left{
+    position: absolute;
+    top: 248px;
+    left: 60px;
+    width: 623px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color:#ffffff;
+}
+@media(max-width:768px){
+    .arch-news-block__title-left{
+        font-size: 44px;
+    }
+}
+
+
+
+
+/* Позиционирование кнопки СМОТРЕТЬ и ЗАГОЛОВКА правого верхнего блока */
+.arch-news-block__top-block{
+    position: relative;
+}
+.arch-news-block__button-look-top{
+    position: absolute;
+    top: 160px;
+    left: 30px;
+}
+.arch-news-block__title-top{
+    position: absolute;
+    top: 68px;
+    left: 30px;
+    width: 243px;
+    height: 62px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color:#ffffff;
+}
+@media(max-width:768px){
+    .arch-news-block__title-top{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:320px){
+    .arch-news-block__title-top{
+        font-size: 38px;
+    }
+}
+
+
+
+/* Позиционирование кнопки СМОТРЕТЬ и ЗАГОЛОВКА правого нижнего блока */
+.arch-news-block__bottom-block{
+    position: relative;
+}
+.arch-news-block__button-look-bottom{
+    position: absolute;
+    top: 160px;
+    left: 30px;
+}
+.arch-news-block__title-bottom{
+    position: absolute;
+    top: 69px;
+    left: 30px;
+    width: 243px;
+    height: 61px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color:#ffffff;
+}
+@media(max-width:768px){
+    .arch-news-block__title-bottom{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:320px){
+    .arch-news-block__title-bottom{
+        font-size: 38px;
+    }
+}
+
+
+/* Ползунок переключатель - модификация */
+.slider-switch {
+    display: flex;
+    justify-content: center; 
+}
+.slider-switch span{
+    width: 13px;
+    height: 13px;  
+    border-radius:100%;
+    cursor: pointer;
+    margin-right: 13px;   
+}
+.slider-switch:last-child{
+    margin-right: 0;
+}
+
+/* Ползунок переключатель - позиционирование */
+.arch-news-block__slider-switch{
+    margin-top: 36px;  
+}
+.arch-news-block__slider-switch span{
+    border: 1px solid rgba(79, 79, 79, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    opacity: 0.4;
+}
+.arch-news-block__slider-switch_active{
+    background: #4f4f4f;
+}

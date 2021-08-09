@@ -1,0 +1,189 @@
+
+
+/* Блок с новостями в нижней части */
+ .arch-news{
+    margin-top: 140px;
+    background-image: url(../img/arch_news.jpg); 
+    width: 100vw;
+    height: 618px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+} 
+@media(max-width:1024px){
+    .arch-news{
+        width: 111vw;
+    }
+}
+@media(max-width:768px){
+    .arch-news{
+        width: 148vw;
+    }
+}
+@media(max-width:600px){
+    .arch-news{
+        width: 189vw;
+    }
+}
+@media(max-width:480px){
+    .arch-news{
+        width: 236vw;
+    }
+}
+@media(max-width:320px){
+    .arch-news{
+        width: 354vw;
+    }
+}
+.arch-news__main-block{
+    display: flex;
+    flex-direction: column;
+    height: 618px;
+}
+/* Заголовок АРХИТЕКТУРНЫЕ НОВОСТИ */
+.arch-news__title{
+    margin: 100px 444px 0 457px;
+    width: 267px;
+    height: 38px;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media(max-width:768px){
+    .arch-news__title{
+       width: 340px;
+       margin:100px auto 0;
+    }
+}
+@media(max-width:480px){
+    .arch-news__title{
+       width: 400px;
+       margin:100px auto 0;
+    }
+}
+@media(max-width:320px){
+    .arch-news__title{
+       width: 480px;
+    }
+}
+
+
+/* Краткое описание */
+.arch_news__unusual-buildings{
+    margin-top: 75px;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arch-news__description{
+    width: 862px;
+    height: 147px;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 73px;  
+}
+.arch-news__description p{
+    color: #FFFFFF;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+}
+.arch-news__description p span{
+    font-weight: 500;
+} 
+/* Кнопки листать влево и вправо */
+.arch-news__arrow-left-img{
+    width: 40px;
+    height: 40px;   
+    cursor: pointer; 
+}
+.arch-news__arrow-right-img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer; 
+}
+@media(max-width:1024px){
+    .arch-news__arrow-right-img{
+        margin-right: 32px;
+    }
+}
+@media(max-width:768px){
+    .arch-news__arrow-left-img{
+       width: 80px;
+       height: 80px;
+    }
+    .arch-news__arrow-right-img{
+        margin-right: 32px;
+        width: 80px;
+        height: 80px;
+    }
+}
+@media(max-width:600px){
+    .arch-news__arrow-right-img{
+        margin-right: 35px;
+    }
+}
+
+
+/* Кнопка смотреть */
+.arch-news_button-look{
+    margin: 40px 483px 0;
+}
+/* Ползунок переключатель */
+.arch-news__slider-switch{
+    margin-top: 55px;
+}
+.arch-news__slider-switch span{
+    border: 1px solid #FFFFFF;
+    opacity: 0.4;
+}
+.arch-news__slider-switch_active{
+    background: #FFFFFF;
+}
+.arch-news__slider-switch_active:nth-child(2){
+    opacity: 1;
+} 
+
+
+
+/* Социальные сети в Footer'е */
+.footer__soc_icons{
+    width: 100vw;
+    height: 140px;
+    background: #1A1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__soc_icons > div{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.footer__soc_icons > div:last-child{
+    margin-right:0;
+}
+@media(max-width:1024px){
+    .footer__soc_icons{
+       width: 111vw;
+    }
+}
+@media(max-width:768px){
+    .footer__soc_icons{
+       width: 148vw;
+    }
+}
+@media(max-width:600px){
+    .footer__soc_icons{
+       width: 189vw;
+    }
+}
+@media(max-width:480px){
+    .footer__soc_icons{
+       width: 236vw;
+    }
+}
+@media(max-width:320px){
+    .footer__soc_icons{
+       width: 354vw;
+    }
+}
+
+

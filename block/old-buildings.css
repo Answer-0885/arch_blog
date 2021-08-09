@@ -1,0 +1,108 @@
+/* Блок старинные здания */
+.old-buildings{
+    width: 1170px;
+    height: 440px;
+    margin: 100px auto 0;
+}
+
+/* Заголовок - СТАРИННЫЕ ЗДАНИЯ - позиционирование */
+.old-buildings__title{
+    width: 218px;
+    margin-bottom: 30px;
+}
+@media(max-width:768px) {
+    .old-buildings__title{
+        width: 280px;
+    }
+} 
+
+@media(max-width:320px) {
+    .old-buildings__title{
+        width: 380px;
+    }
+}     
+
+
+/* Картинки старинных зданий - позиционирование */
+.old-buildings__content{
+    display: flex;
+}
+.old-buildings__content-right{
+    display: flex;
+    margin-left: 50px;
+}
+.old-buildings__img-right{
+    margin-left: 20px;
+}
+.old-buildings__img-bottom{
+    margin-top: 9px;
+}
+@media(max-width:1024px){
+    .old-buildings__content-right{
+        width: 142vw;
+        overflow: hidden;
+    }
+    .old-buildings__img-right{
+        margin-left: 10px;
+    }
+    .old-buildings__content-right{
+        margin-left: 25px;
+    }
+}
+@media(max-width:768px){
+    .old-buildings__content-left{
+        width: 95%;
+        overflow: hidden;
+    }
+    .old-buildings__content-right{
+        width: 142vw;
+        overflow: hidden;
+    }
+    .old-buildings__img-right{
+        margin-left: -20px;
+    }
+}
+@media(max-width:600px){
+    .old-buildings__content-left{
+        width: 95%;
+        overflow: hidden;
+    }
+    .old-buildings__content-right{
+        margin-left: -80px;
+        width: 160vw;
+        overflow: hidden;
+    }
+    .old-buildings__img-right{
+        margin-left: -5px;
+    }
+}
+@media(max-width:480px){
+    .old-buildings__content-left{
+        width: 95%;
+        overflow: hidden;
+    }
+    .old-buildings__content-right{
+        margin-left: -150px;
+        width: 180vw;
+        overflow: hidden;
+    }
+    .old-buildings__img-right{
+        margin-left: -150px;
+    }
+}
+
+@media(max-width:320px){
+    .old-buildings__content-left{
+        width: 97%;
+        overflow: hidden;
+    }
+    .old-buildings__content-right{
+        margin-left: -550px;
+        width: 180vw;
+        overflow: hidden;
+    }
+    .old-buildings__img-right{
+        margin-left: -200px;
+    }
+}
+

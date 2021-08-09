@@ -1,0 +1,507 @@
+/* Нижний отступ от шапки страницы */
+.header__page-2 {
+    margin-bottom: 24px;
+}
+.hr {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+@media(max-width:1024px){
+    .hr {
+        width: 1090px;
+    }
+    .header__menu{
+        margin-right: -150px;
+    }
+}
+@media(max-width:768px){
+    .header__menu{
+        margin-right: -360px;
+    }
+}
+@media(max-width:600px){
+    .header__menu{
+        margin-right: -520px;
+    }
+}
+@media(max-width:480px){
+    .header__menu{
+        margin-right: -640px;
+    }
+    .header__menu__item{
+        font-size: 32px;
+    }
+}
+@media(max-width:320px){
+    .header__menu{
+        margin-right: -780px;
+    }
+}
+/* Хлебные крошки */
+.breadcrumb__list {
+    list-style: none;
+    height: 22px;
+    width: 900px;
+    display: flex;
+    margin-top: 20px;
+}
+@media(max-width:600px){
+    .breadcrumb__list{
+        width: 920px;  
+    }
+}
+.breadcrumb__list__list-1 a {
+    text-decoration: none;
+    color: rgba(51, 51, 51, 0.5);
+    font-size: 16px;
+    line-height: 22px;
+}
+@media(max-width:768px){
+    .breadcrumb__list__list-1 a{
+        font-size: 20px;
+    }
+}
+@media(max-width:600px){
+    .breadcrumb__list__list-1 a{
+        font-size: 24px;
+    }
+}
+@media(max-width:480px){
+    .breadcrumb__list__list-1 a{
+        font-size: 28px;
+    }
+}
+.breadcrumb__list__list-1:after {
+    content: "\005C";
+    color: rgba(51, 51, 51, 0.5);
+    padding-left: 5px;
+
+}
+
+.breadcrumb__list__list-2 {
+    color: rgba(51, 51, 51, 0.2);
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 5px;
+}
+@media(max-width:768px){
+    .breadcrumb__list__list-2{
+        font-size: 20px; 
+
+    }
+}
+@media(max-width:600px){
+    .breadcrumb__list__list-2{
+        font-size: 24px;  
+    }
+}
+@media(max-width:480px){
+    .breadcrumb__list__list-2{
+        font-size: 26px;  
+    }
+}
+/* Заголовок АРХИТЕКТУРНЫЕ НОВОСТИ */
+.main__title {
+    width: 267px;
+    height: 38px;
+    margin-top: 45px;
+}
+@media(max-width:768px){
+    .main__title{
+        width: 360px;
+        margin-top: 65px;
+    }
+}
+@media(max-width:600px){
+    .main__title{
+       width: 420px;
+    }
+    .main__title p{
+        font-size: 28px;
+     }
+}
+@media(max-width:480px){
+    .main__title{
+       width: 480px;
+    }
+    .main__title p{
+        font-size: 32px;
+     }
+}
+/* Подзаголовок */
+.main__h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.13em;
+    margin-top: 25px;
+}
+@media(max-width:768px){
+    .main__h4{
+        font-size: 18px; 
+    }
+}
+@media(max-width:600px){
+    .main__h4{
+        font-size: 20px; 
+        width: 700px;
+    }
+}
+@media(max-width:480px){
+    .main__h4{
+        font-size: 24px; 
+        width: 760px;
+    }
+}
+/* Номер 10/50 */
+.main__number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(51, 51, 51, 0.5);
+    margin-top: 10px;
+}
+@media(max-width:768px){
+    .main__number{
+        font-size: 22px; 
+    }
+}
+@media(max-width:480px){
+    .main__number{
+        font-size: 28px; 
+    }
+}
+/* Блок "Перейти" - модификация для всех блоков с картинками*/
+.transition {
+    opacity: 0;
+    background: #ffffff;
+    border: 1px solid;
+    width: 150px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transition__p a {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: #333333;
+    text-decoration: none;
+}
+.transition__vector{
+    margin-top: 3px;
+    margin-right: 0px;
+    margin-left: 12px;
+}
+
+
+/* Верхний ряд картинок */
+.main__img-top {
+    display: flex;
+    margin-top: 20px;
+}
+@media(max-width:768px){
+    .main__img-top{
+        margin-left: 80px;
+    }
+}
+/* Первый блок в верхнем ряду */
+.main__img-top-1 {
+    position: relative;
+}
+.main__transition-1{
+    position: absolute;
+    top: 373px;
+    
+}
+.main__img-top-1:hover .transition{
+    opacity: 1;
+}
+.main__img-top-1:hover .main__img-top-1__h4 a {
+    color: red;
+}
+
+/* Второй блок в верхнем ряду */
+.main__img-top-2 {
+    position: relative;
+    margin-left: 17px;
+}
+.main__transition-2{
+    position: absolute;
+    top: 441px;
+}
+.main__img-top-2:hover .transition{
+    opacity: 1;
+}
+.main__img-top-2:hover .main__img-top-2__h4 a {
+    color: red;
+}
+
+/* Третий блок в верхнем ряду */
+.main__img-top-3 {
+    margin-left: 17px;
+    position: relative;
+}
+.main__transition-3{
+    position: absolute;
+    top: 373px;
+}
+.main__img-top-3:hover .transition{
+    opacity: 1;
+} 
+.main__img-top-3:hover .main__img-top-3__h4 a {
+    color: red;
+}
+
+
+
+
+/* Средний ряд картинок */
+.main__img-center {
+    display: flex;
+    margin-top: 52px;
+}
+@media(max-width:768px){
+    .main__img-center{
+        margin-left: 80px;
+    }
+}
+/* Первый блок в среднем ряду */
+.main__img-center-1 {
+    position: relative;
+}
+.main__transition-4{
+    position: absolute;
+    top: 314px;  
+}
+.main__img-center-1:hover .transition{
+    opacity: 1;
+}
+.main__img-center-1:hover .main__img-center-1__h4 a {
+    color: red;
+}
+
+/* Второй блок в среднем ряду */
+.main__img-center-2 {
+    position: relative;
+    margin-left: 20px;
+}
+.main__transition-5{
+    position: absolute;
+    top: 275px;
+}
+.main__img-center-2:hover .transition{
+    opacity: 1;
+}
+.main__img-center-2:hover .main__img-center-2__h4 a {
+    color: red;
+}
+/* Третий блок в среднем ряду */
+.main__img-center-3 {
+    margin-left: 17px;
+    position: relative;
+}
+.main__transition-6{
+    position: absolute;
+    top: 314px;
+}
+.main__img-center-3:hover .transition{
+    opacity: 1;
+} 
+.main__img-center-3:hover .main__img-center-3__h4 a {
+    color: red;
+}
+
+
+
+
+/* Нижний ряд картинок */
+.main__img-bottom {
+    display: flex;
+    margin-top: 60px;
+    width: 54px;
+}
+@media(max-width:768px){
+    .main__img-bottom{
+        margin-left: 80px;
+    }
+}
+/* Первый блок в нижнем ряду */
+.main__img-bottom-1 {
+    position: relative;
+}
+.main__transition-7{
+    position: absolute;
+    top: 373px;
+    
+}
+.main__img-bottom-1:hover .transition{
+    opacity: 1;
+}
+.main__img-bottom-1:hover .main__img-bottom-1__h4 a {
+    color: red;
+}
+
+/* Второй блок в нижнем ряду */
+.main__img-bottom-2 {
+    position: relative;
+    margin-left: 20px; 
+}
+.main__transition-8{
+    position: absolute;
+    top: 441px;
+}
+.main__img-bottom-2:hover .transition{
+    opacity: 1;
+}
+.main__img-bottom-2:hover .main__img-bottom-2__h4 a {
+    color: red;
+}
+
+/* Третий блок в нижнем ряду */
+.main__img-bottom-3 {
+    margin-left: 20px;
+    position: relative;
+}
+.main__transition-9{
+    position: absolute;
+    top: 373px;
+}
+.main__img-bottom-3:hover .transition{
+    opacity: 1;
+} 
+.main__img-bottom-3:hover .main__img-bottom-3__h4 a {
+    color: red;
+}
+
+
+/* Подзаголовки под картинками */
+.main__img-top-1__h4,
+.main__img-top-2__h4,
+.main__img-top-3__h4,
+.main__img-center-1__h4,
+.main__img-center-2__h4,
+.main__img-center-3__h4,
+.main__img-bottom-1__h4,
+.main__img-bottom-2__h4,
+.main__img-bottom-3__h4 {
+    margin-top: 20px;
+}
+.main__img-top-1__h4 a,
+.main__img-top-2__h4 a,
+.main__img-top-3__h4 a,
+.main__img-center-1__h4 a,
+.main__img-center-2__h4 a,
+.main__img-center-3__h4 a,
+.main__img-bottom-1__h4 a,
+.main__img-bottom-2__h4 a,
+.main__img-bottom-3__h4 a   {
+    height: 20px;
+    font-weight: 500;
+    letter-spacing: 0.13em;
+    line-height: 170%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+@media(max-width:768px){
+    .main__img-top-1__h4 a,
+.main__img-top-2__h4 a,
+.main__img-top-3__h4 a,
+.main__img-center-1__h4 a,
+.main__img-center-2__h4 a,
+.main__img-center-3__h4 a,
+.main__img-bottom-1__h4 a,
+.main__img-bottom-2__h4 a,
+.main__img-bottom-3__h4 a {
+       font-size: 20px;
+    }
+}
+@media(max-width:480px){
+    .main__img-top-1__h4 a,
+.main__img-top-2__h4 a,
+.main__img-top-3__h4 a,
+.main__img-center-1__h4 a,
+.main__img-center-2__h4 a,
+.main__img-center-3__h4 a,
+.main__img-bottom-1__h4 a,
+.main__img-bottom-2__h4 a,
+.main__img-bottom-3__h4 a {
+       font-size: 24px;
+    }
+}
+
+
+
+/* Нижняя Пагинация */
+.nav{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:768px){
+    .nav{
+        margin-left: 450px;
+    }
+}
+@media(max-width:600px){
+    .nav{
+        margin-left: 550px;
+    }
+}
+.nav__border{
+    border:1.5px solid #333333;
+    width: 300px;
+    height: 14px;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    margin-right: 10px;
+}
+.nav__pagination  {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    width: 406px;
+    height: 27px;
+}
+.nav__pagination li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+    letter-spacing:20px;
+    text-transform: uppercase;
+}
+@media(max-width:768px){
+    .nav__pagination li{
+        font-size: 20px;
+    }
+}
+@media(max-width:480px){
+    .nav__pagination li{
+        font-size: 24px;
+    }
+}
+.nav__pagination a {
+    text-decoration: none;
+    color: #333333;
+}
+.modal-3 a {
+    margin-left: 3px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+  .modal-3 a:hover {
+    color: red;
+  }
+
+
+
+  
